@@ -84,6 +84,10 @@ a[class="nav-link"] {
     padding-top: 40vh;
 }
 
+.social-links a {
+    color: white;
+}
+
 .about-section {
     background-color: black;
 }
@@ -98,7 +102,6 @@ hr {
     border-top: 2px solid skyblue;
     width: 30vw;
     margin-top: 0;
-    /* background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0)); */
 }
 
 .blog-section {
@@ -117,3 +120,4 @@ hr {
 .home-actions-item {
     width: 50-vw;
 }
+
