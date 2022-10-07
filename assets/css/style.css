@@ -4,50 +4,11 @@ body {
     font-family: 'Poppins', sans-serif
 }
 
-/* .home-section{
-    background-color: #e7dfd8;
-} */
-
-/* .home-div{
-    border: 2px;
-    border-color: black;
-}  */
-
-
-/* .profile-image{
-    width: 100%;
-} */
-
-
-
 /***** Top menu *****/
 
 .navbar {
     background: black;
 }
-
-
-/* li[class = nav-item] {
-    padding-left: 1rem;
-    padding-right: 1rem;
-} */
-
-
-
-/***** Top section *****/
-
-/* .home { */
-/* padding: 110px 0; */
-/* background-color: #e7dfd8; */
-/* } */
-
-/* section[class ~= "project-color"]{ */
-/* background-color: #e7dfd8; */
-/* } */
-
-/* .top-section .container {
-    background-color: #e7dfd8;
-} */
 
 .navbar-brand {
     color: red;
@@ -58,10 +19,7 @@ a[class="nav-link"] {
 }
 
 .home-banner {
-    /* background-image: url("https://www.legalcheek.com/wp-content/uploads/2018/03/Computer.png"); */
-    /* background-image: url(../images/mac-bg.jpg); */
     background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1747&q=80");
-    /* background-color: black; */
     background-size: cover;
     background-position: center center;
 }
@@ -80,8 +38,13 @@ a[class="nav-link"] {
     margin: 0;
 }
 
-.social-links {
-    padding-top: 40vh;
+.social-links-home {
+    position: absolute;
+    bottom: 0
+}
+
+.social-links a {
+    color: white;
 }
 
 .about-section {
@@ -98,7 +61,6 @@ hr {
     border-top: 2px solid skyblue;
     width: 30vw;
     margin-top: 0;
-    /* background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0)); */
 }
 
 .blog-section {
